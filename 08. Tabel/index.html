@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>8. Tabel</title>
+    </head>
+    <body>
+        <h1>8. Tabel</h1>
+        <table border="1">
+            <!-- Mengisi tabel -->
+            <!-- tr -> baris -->
+            <!-- td ->data per baris/kolom -->
+            <!-- th ->header -->
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+        </table>
+
+        <h4>Tabel dengan Header</h4>
+        <table border="1">
+            <tr>
+                <th> Header Row 1</th>
+                <td> Isi row 1-1</td>
+                <td> Isi row 1-2</td>
+            </tr>
+            <tr>
+                <th> Header Row 2</th>
+                <td> Isi row 2-1</td>
+                <td> Isi row 2-2</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <table border="1">
+            <th>Judul kolom 1</th>
+            <th>Judul kolom 2</th>
+            <th>Judul kolom 3</th>
+            <tr>
+                <td>Isi 11</td>
+                <td>Isi 12</td>
+                <td>Isi 13</td>
+            </tr>
+            <tr>
+                <td>Isi 21</td>
+                <td>Isi 22</td>
+                <td>Isi 23</td>
+            </tr>
+            <tr>
+                <td>Isi 31</td>
+                <td>Isi 32</td>
+                <td></td>
+             </tr>
+        </table>
+
+        <br>
+        <br>
+        <h4>Colspan untuk menggabungkan kolom</h4>
+        <table border="1">
+            <th>Kolom 1</th>
+            <th>Kolom 2</th>
+            <th>Kolom 3</th>
+            <tr>
+                <td>Isi 11</td>
+                <td>Isi 12</td>
+                <td>Isi 13</td>
+            </tr>
+            <tr>
+                <td>Isi 21</td>
+                <td colspan="2">diperpanjang</td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+               <th rowspan="2">Ini diperbesar kebawah</th>
+               <td>isi 2</td>
+               <td>isi b</td> 
+            </tr>
+            <tr> 
+                <td>kosong1</td>
+                <!-- <td>kosong</td> -->
+            </tr>
+        </table>
+    </body>
+</html>
