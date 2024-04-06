@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>9. Form</title>
+    </head>
+    <body>
+        <h1>9. Form</h1>
+        <!-- ga semua harus diletakkan di dalam form  -->
+        <input type="text">
+        <form>
+            <!-- isi nama -->
+            Nama Anda adalah <input type="text">
+            <br>
+            <!-- isi password -->
+            Password anda adalah <input type="password">
+            <br>
+            <!-- button submit -->
+            <input type="button" name="Submit" value="Sudah Benar">
+            <br>
+            <!-- button pilihan -->
+            Button pilihan:
+            <br>
+            <!-- Agar hanya bisa memilih salah satu, buat dua button dengan name yang sama -->
+            <input type="radio" name ="Pilihan" value="benar">
+            <label for="benar">yakin</label>
+            <input type="radio" name ="Pilihan" value="salah">
+            <label for="salah">tidak yakin</label>
+            <br>
+            <!-- button checkbox -->
+            Button checkbox:
+            <br>
+            <input type="checkbox" name="Pilihan">
+            <label for="Pilihan">baik</label>
+        </form>
+
+        <!-- membuat dropdown -->
+        <br>
+        <h2>dropdown</h2>
+        <select name="Pilih" id="1">
+            <option value="A">pilihan A</option>
+            <option value="B">pilihan B</option>
+            <option value="C">pilihan C</option>
+        </select>
+        <br>
+        <!-- Upload file -->
+        <h2>Upload file</h2>
+        <input type="file", name="unggah", value="opload dong">
+    </body>
+</html>
