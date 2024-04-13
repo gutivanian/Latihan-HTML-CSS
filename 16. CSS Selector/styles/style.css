@@ -1,0 +1,53 @@
+/* Universal selector--> menggunakan tanda bintang */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Type selector --> menggunakan tanda tipenya */
+
+h1 {
+    color: blueviolet;
+    background-color: chartreuse;
+}
+
+/* Id selector --> menggunakan tanda pagar # + idnya */
+#item-3 {
+    color: brown;
+    background-color: cornflowerblue;
+}
+
+/* Child selector -->  menggunakan tanda kurang dari < parentnya*/
+
+p>b {
+    color: coral;
+}
+
+li>b {
+    color: darkmagenta;
+}
+
+/* Class selector --> menggunakan tanda parent.class*/
+
+li.itemize{
+    color: darkred;
+}
+
+/* Descendant selector --> menggunakan tanda parent terluar spasi descendant */
+
+p u {
+    color: darkgoldenrod;
+}
+
+/* Adacent sibling Selector --> menggunakan tanda sebelum + setelah */
+/* misal p + h2, berarti mencari h2 yang terletak setelah p */
+p+h2{
+
+    background-color: bisque;
+}
+
+/* General sibling selector --> menggunakan tanda tilde ~ */
+/* misalkan p ~ h2, mencari h2 yang terletak setelah p berapapun jumlahnya */
+p~h2{
+    color: crimson;
+}
