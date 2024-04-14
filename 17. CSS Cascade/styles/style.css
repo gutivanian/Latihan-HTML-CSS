@@ -1,0 +1,22 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Aturan terakhir */
+
+/* akan menggunakan perintah terakhir yaitu brown */
+b {
+    color: blue;
+}
+b {
+    color: brown !important;
+}
+
+/* Aturan spesifik */
+/* jika lebih spesifik maka akan menimpa yang lebih umum tidak peduli bagaimana urutannya*/
+p>b {
+    color: chartreuse;
+}
+
+/* kalo mau lebih spesifik atau lebih utama, maka gunakan !important */
