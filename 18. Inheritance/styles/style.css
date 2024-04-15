@@ -1,0 +1,14 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+    padding: 10%;
+}
+
+/* untuk menstyling yang ada di div, gunakan titik . + nama kelas */
+
+.kotak{
+    color: blue;
+    border: 1px solid black;
+    /* Gunakan inherit agar menggunakan nilai yang sama dengan parent div */
+    padding: inherit !important;
+}
