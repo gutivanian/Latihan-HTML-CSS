@@ -1,0 +1,27 @@
+/* foreground color adalah warna untuk teks */
+/* color name */
+
+h1 {
+    color: darkblue;
+}
+/* hex */
+h2{
+    color: #0000FF;
+}
+/* rgb */
+h3{
+    color: rgb(222, 123, 111);
+}
+
+/* background color */
+body{
+    background-color: #12ffa1;
+}
+
+.kotak{
+    background-color: aqua;
+}
+
+h1{
+    background-color: burlywood;
+}
