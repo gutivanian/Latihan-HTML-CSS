@@ -1,0 +1,28 @@
+body{
+    background-color: bisque;
+}
+
+#Judul{
+    background-color: blueviolet;
+    color: chartreuse;
+    border: 2px solid black;
+}
+
+
+.kotak{
+    background-color: rgba(183, 88, 202, 0.549);
+}
+
+
+/* HSL --> Hue, Saturation, Lightness */
+/* hue dari 0-360 */
+/* saturasi dari 0-100 %*/
+/* lightness dari 0-100% */
+#list{
+    background-color: hsl(140, 70%, 74%);
+}
+
+
+#para2{
+    background-color: hsla(222, 60%, 55%, 0.4);
+}
