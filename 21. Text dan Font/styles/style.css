@@ -1,0 +1,14 @@
+body{
+    background-color: beige;
+}
+
+h1{
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-style: italic;
+}
+
+p.P1{
+    font-family: Arial;
+    font-size: larger;
+}
