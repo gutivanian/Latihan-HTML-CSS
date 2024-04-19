@@ -1,0 +1,33 @@
+body{
+    background-color: beige;
+}
+
+h1{
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-style: italic;
+    text-decoration:overline;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+}
+
+/* memberi warna ketika hover */
+a:hover{
+    color:crimson;
+}
+/* memberi warna kalo aktif/saat di klik */
+a:active{
+    color: cyan;
+}
+
+
+p.P1{
+    font-family: Arial;
+    font-size: larger;
+    text-transform: capitalize
+}
+
+p{
+    text-align:justify;
+    word-spacing: 10px;
+}
