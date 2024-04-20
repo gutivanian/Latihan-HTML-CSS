@@ -1,0 +1,22 @@
+.kotak1{
+    background-color: aquamarine;
+}
+
+.kotak1 h2{
+    background-color: chartreuse;
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+
+h2,h3{
+    font-family: 'Courier New', Courier, monospace;
+    color: dodgerblue;
+}
+/* overflow untuk tidak menampilkan teks kepanjangan
+ */
+p.p11{
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+}
