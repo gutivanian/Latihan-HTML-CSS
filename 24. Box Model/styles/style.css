@@ -1,0 +1,23 @@
+*{
+    font-family: arial;
+}
+.content{
+    font-size: 40px;
+    text-align: center;
+    background-color:bisque;
+}
+
+.container{
+    background-color: blue;
+    width: 340px;
+    height: 600 px;
+    border: 20px solid;
+}
+
+.content{
+    width: 200px;
+    height: 150 px;
+    border: 20px solid;
+    padding: 30px;
+    margin: 20px;
+}
