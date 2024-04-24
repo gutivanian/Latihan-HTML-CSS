@@ -1,0 +1,55 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Judul{
+    background-color: bisque;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black !important;
+
+    margin: 10px;
+}
+.margin-2{
+    background-color: bisque;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black !important;
+    /* kiri */
+    /* atas kiri-kanan */
+    /* jika kiri-kanan dikasih auto akan otomatis ditengah */
+    margin: 10px auto;
+}
+.margin-3{
+    background-color: bisque;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black !important;
+    /* atas kiri-kanan bawah  */
+    margin: 40px 20px 50px;
+}
+.margin-4{
+    background-color: bisque;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black !important;
+    /* atas kanan bawah kiri  */
+    /* gunakan auto untuk otomatis mengikuti ukuran  */
+    margin: 40px 20px 50px auto !important;
+}
+.margin-5{
+    background-color: bisque;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black !important;
+/* bisa menggunakan salah satu saja dengan margin-arah */
+    margin-left: auto !important;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border: 2px solid black;
+}
+
+
+
