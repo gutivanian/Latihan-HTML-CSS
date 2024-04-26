@@ -1,0 +1,24 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: xx-large;
+    color: blue;
+}
+
+ol{
+    /* membuat penomoran, default decimal */
+    list-style-type:lower-roman;
+}
+
+ul{
+    margin: 10px;
+    /* mengubah posisi baris kedua, default ouside */
+    list-style-position: inside;
+}
+
+.singkat{
+    list-style:lower-greek inside;
+}
+
