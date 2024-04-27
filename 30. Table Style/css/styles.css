@@ -1,0 +1,27 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:blueviolet;
+}
+
+table{
+    width: 600px;
+    border-collapse: collapse;
+}
+
+th{
+    border: 1px solid black;
+
+}
+
+th,td{
+    padding: 10px;
+}
+
+tr.genap{
+    background-color:bisque;
+}
+
+tr:hover{
+    background-color: cadetblue;
+}
+
