@@ -1,0 +1,54 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input{
+    font-size: 120%;
+    color: black;
+    background-color:bisque;
+    border-radius: 5px;
+    padding: 10px;
+    padding-right: 40px;
+    display: block;
+    margin-bottom: 10px;
+
+    /* mengatur logo backgrond */
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 250px;
+}
+
+input:focus{
+    background-color: beige;
+}
+
+input#email{
+    background-image: url("../img/logo/email.png");
+}
+
+input#instagram{
+    background-image: url("../img/logo/instagram.png")
+}
+
+input#web{
+    background-image: url("../img/logo/webs.png");
+}
+
+
+input#submit{
+    color:cornsilk ;
+    text-shadow: 0px 3px 3px black;
+    background-color: cadetblue;
+    padding: 5px 10px 5px 10px;
+}
+
+#submit:hover{
+    background-color:crimson;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#submit:active{
+    background-color: darkviolet;
+    color: beige;
+}
