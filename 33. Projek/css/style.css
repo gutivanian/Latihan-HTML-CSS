@@ -1,0 +1,139 @@
+*{
+    font-family: Arial;
+}
+
+/* gunakan header-logo img karena styling berguna untuk semua img di bawah header-logo. Jika menggunakan header-logo>img, maka hanya berguna untuk img yang merupakan anak langsung dari header-logo */
+.header-logo img{
+     height: 100px;
+     order: 1;
+}
+.header{
+    display: flex;
+    background-color: cornsilk;
+    padding: 0px;
+}
+
+.header-title{
+    margin-top: auto;
+    margin-bottom: auto;
+    order: 2;
+}
+
+.header-title a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* --- NavBar --- */
+
+.nav-item{
+    display: inline-block;
+    margin-left: 20px;
+    height: 20px;
+}
+
+.nav{
+    background-color: brown;
+    margin-top: 0px ;
+}
+
+.nav-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item a:hover{
+    color: cyan;
+}
+
+.content{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+
+.content h1,h2{
+    color:blueviolet;
+}
+
+td>img{
+    width: 40px;
+    height: 60px;
+}
+
+
+.tabel{
+    border-spacing: 2px;
+    border: 1px solid black;
+}
+
+
+.tabel-header{
+    background-color: bisque;
+    border: 1px solid blue;
+}
+
+.tabel-header th{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+.tabel-konten td{
+    border: 1px solid black;
+}
+
+.tabel-konten{
+    background-color: rgb(144, 185, 185);
+}
+
+.tabel-konten:hover{
+    background-color: aqua !important;
+}
+
+
+
+/* FORM */
+
+.form-group{
+    margin-top: 20px;
+
+}
+
+.form-group label{
+    font-size: 20px;
+    color:blueviolet;
+    display: block;
+}
+
+.form-group input{
+    margin-top: 10px;
+    width: 60%;
+    /* display: block; */
+}
+
+.form-group textarea{
+    margin-top: 10px;
+    width: 60%;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    background-color: blueviolet;
+    color: antiquewhite;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: blue;
+}
+
+.btn:active{
+    background-color: brown;
+}
