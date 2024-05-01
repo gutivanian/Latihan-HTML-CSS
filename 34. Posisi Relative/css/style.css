@@ -1,0 +1,11 @@
+p{
+    background-color: aquamarine;
+}
+
+
+.posisi-relative{
+    background-color: beige;
+    position:relative;
+    left: 50px;
+    bottom: 50px;
+}
