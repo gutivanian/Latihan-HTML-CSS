@@ -1,0 +1,23 @@
+h2{
+    background-color: bisque;
+}
+
+.judul-1{
+    position: sticky;
+    /* memberi lokasi diam ketika discroll */
+    top: 0px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.judul-2{
+    position: sticky;
+    top: 43px;
+    padding-top: 10px;
+}
+
+.judul-3{
+    position: sticky;
+    bottom: 0px;
+    top: 88px;
+}
