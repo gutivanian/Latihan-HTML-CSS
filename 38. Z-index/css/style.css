@@ -1,0 +1,22 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header{
+    position: fixed !important;
+    background-color: aqua;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    /* z-index menyatakan urutan di layar yang paling atas, jika header z=1, maka header diatas dan container dibawah, begitupula sebaliknya */
+
+    /* z-index header harus lebih gede */
+    z-index: 3;
+}
+
+.container{
+    /* akan overlap dengan header untuk mengatasinya dengan z-index */
+    position:relative;
+    z-index: 1;
+    top: 100px;
+}
