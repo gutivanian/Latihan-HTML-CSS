@@ -1,0 +1,47 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* header */
+
+.header{
+    background-color: aqua;
+    position: fixed !important;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    padding: 10px;
+    z-index: 2;
+
+}
+
+.header h1{
+    margin-left: 50px;
+}
+
+.container{
+    z-index:1;
+    position: relative;
+    max-width: 700px;
+    margin: 0px auto 0px auto; 
+    top: 100px;  
+}
+
+.kolom-menu{
+    background-color: blueviolet;
+    color: azure;
+    float:left;
+    width:200px
+}
+
+.kolom-konten{
+    float: left;
+    width: 500px;
+}
+
+.kolom-menu.ul{
+    list-style-type: none;
+
+}
