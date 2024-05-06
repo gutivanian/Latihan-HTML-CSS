@@ -1,0 +1,17 @@
+    h1,p{
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+blockquote{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 200px;
+    float: left !important;
+}
+
+p{
+    text-align: justify;
+}
+    
