@@ -1,0 +1,53 @@
+body{
+    width: 990px;
+    margin: 0px auto;
+    font-family: Arial;
+}
+
+#header h1{
+    text-align: center;
+}
+
+.nav{
+    text-align: center;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+.nav li{
+    display: inline;
+    padding: 20px;
+    background-color: aqua;
+}
+
+
+#highlight{
+    text-align: center;
+    background-color: beige;
+    padding: 20px;
+    margin-top:10px;
+}
+
+#highlight img{
+    width: 20%;
+    height: 20%;
+
+}
+
+.kolom-1, .kolom-2,.kolom-3{
+    width: 290px;
+    margin: 10px;
+    padding: 10px;
+    background-color:bisque;
+    float: left;
+    height: 200px;
+    overflow: scroll;
+}
+
+#footer{
+    text-align: center;
+    background-color: beige;
+    padding: 10px;
+    margin-top: 10px;
+}
+
