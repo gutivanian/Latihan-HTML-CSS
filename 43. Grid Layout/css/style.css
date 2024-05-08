@@ -1,0 +1,48 @@
+body{
+    width: 90%;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#nav,.footer{
+    background-color: beige;
+    padding: 10px;
+    margin: 10px;
+}
+
+li{
+    display: inline;
+    padding: 10px;
+}
+
+
+/* Grid Style */
+.grid-container {
+    display: grid;
+    margin: 1%;
+    background-color: beige;
+    grid-template-columns: 30% 20% 20%;
+    /* gunakan "gap" untuk memberi gap selain justify content */
+    gap: 10px;
+    justify-content: space-between;
+    grid-template-rows: 100px 200px auto ;
+}
+
+
+.grid-item{
+    background-color: aquamarine!important;
+    border: 1px solid black !important;
+    text-align: center !important;
+    padding: 20px;
+}
+
+.item-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item-2{
+    grid-row-start: 2;
+    grid-row-end:4 ;
+}
