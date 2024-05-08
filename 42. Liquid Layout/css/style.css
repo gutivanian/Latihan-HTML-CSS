@@ -1,0 +1,51 @@
+body{
+    font-family: Arial;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#header{
+    text-align: center;
+}
+
+#content{
+    overflow: scroll !important;
+}
+
+#nav, #feature, #footer{
+    background-color: beige;
+    padding: 10px;
+    text-align: center !important;
+    margin: 2.5%;
+
+}
+
+#nav li{
+    display: inline;
+    padding: 10px;
+}
+
+.kolom-1,.kolom-2,.kolom-3{
+    background-color: bisque !important;
+    width: 30%;
+    float: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.kolom-1{
+    margin-left: 0px !important;
+}
+
+.kolom-3{
+    margin-left: 0px !important;
+}
+
+#content h3{
+    text-align: center;
+}
+
+
+#feature img{
+    width: 30%;
+}
