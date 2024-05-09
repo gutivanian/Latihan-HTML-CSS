@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+#header {
+    background-color: beige;
+    position: fixed;
+    top: 0px;
+    height: auto !important;
+    text-align: center;
+    left: 0;
+    width: 100%;
+}
+
+#header h1{
+    margin-left: 20px;
+}
+
+#content{
+margin-top: 17%;
+}
+
+
+.menu ul{
+    list-style-type: none;  
+    padding: 0px;
+}
+
+.menu li{
+    background-color: aquamarine; 
+    margin-bottom: 10px;
+    box-shadow: 3px 3px black;
+}
+
+.gambar img{
+    width: 100%;
+}
+
+
+#footer{
+    background-color: bisque;
+    padding: 10px;
+    margin-top: 5px;
+    text-align: center;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+[class *= "col-"]{
+    padding: 10px;
+    width: 100%;
+
+}
+
+/* bukan mobile */
+@media only screen and (min-width: 768px){
+    #content{
+        margin-top: 10%;
+    }
+
+
+    [class *= "col-"]{
+        float: left;
+    }
+
+    .col-kiri{
+        width: 15%;
+        margin: 0.5%;
+    }
+
+    .col-kanan{
+        width: 67%;
+        margin: 0.5%;
+    }
+}
